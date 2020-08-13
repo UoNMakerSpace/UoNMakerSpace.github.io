@@ -39,6 +39,8 @@
   transition: all 0.3s;
   position: relative;
   z-index: 1;
+  background-color: #ddd;
+  box-shadow: 0 0 3px 2px rgba(64, 64, 64, 0.25);
 
   @include media(">=sm") {
     margin: 0 rem($itemMargin) rem(30px);
@@ -60,18 +62,20 @@
 
   &:hover {
     z-index: 2;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 5px 3px rgba(64, 64, 64, 0.33);
 
     img {
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
-      transform: scale(1.05);
+      transform: scale(1.0);
     }
 
     .box-body {
       time,
       p {
-        color: $accentDark;
+        color: darken($texts, 20%);
+        //font-weight: 500;
       }
 
       .cover {
@@ -124,33 +128,16 @@
       margin: rem(10px) 0;
       font-size: rem(24px);
       @include mainFont(800);
-      color: $accentDark;
+      color: $darkGray;
       line-height: rem(30px);
     }
 
     p {
+      @include paraFont(300);
       margin: 0 0 rem(30px);
-      color: darken($lightGray, 20%);
+      color: $texts;
       font-size: rem(17px);
       line-height: rem(26px);
-    }
-
-    .tags a {
-      height: rem(30px);
-      line-height: rem(26px);
-      color: $accentDark;
-      padding: 0 rem(10px);
-      border: 1px solid $accentDark;
-      border-radius: 15px;
-      display: inline-block;
-      margin: 0 rem(10px) rem(10px) 0;
-      z-index: 50;
-
-      &:hover {
-        color: $primaryDark;
-        background: $accentDark;
-        border-color: $accentDark;
-      }
     }
 
     .cover {

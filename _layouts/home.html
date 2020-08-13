@@ -18,10 +18,24 @@ layout: main
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign featured = posts.first %}
-        <section class="hero" style="background-image: url({{ featured.image }})">
+        <style>
+            {% if featured.image_hidpi %}
+            @media
+            only screen and (-webkit-min-resolution: 192dpi),
+            only screen and (min-resolution: 192dpi) {
+                .hero {
+                    background-image: url({{ featured.image_hidpi }});
+                }
+            } {% endif %}
+            .hero {
+                background-image: url({{ featured.image }});
+            }
+        </style>
+        <section class="hero">
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
+                <!--
                 <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">
                     {% if site.date_format == nil %}
                         {{ featured.date | date: "%m.%d.%Y" }}
@@ -29,6 +43,7 @@ layout: main
                         {{ featured.date | date: site.date_format }}
                     {% endif %}
                 </time>
+                -->
                 <h1 class="title">{{ featured.title }}</h1>
                 <p class="description">{{ featured.subtitle }}</p>
                 <div class="buttons">
@@ -104,9 +119,6 @@ layout: main
 {% assign social_urls = '' %}
 {% if site.github_username %}
     {% assign social_urls = social_urls | append: '"https://github.com/' | append: site.github_username | append: '",' %}
-{% endif %}
-{% if site.facebook_username %}
-    {% assign social_urls = social_urls | append: '"https://www.facebook.com/' | append: site.facebook_username | append: '",' %}
 {% endif %}
 {% if site.twitter_username %}
     {% assign social_urls = social_urls | append: '"https://twitter.com/' | append: site.twitter_username | append: '",' %}

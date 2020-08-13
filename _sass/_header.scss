@@ -4,7 +4,7 @@ body {
 }
 
 .bar-header {
-  background-color: $primaryDark;
+  background-color: rgba(128, 128, 128, 0.85); // 1
   padding: rem(10px) rem(15px);
   position: fixed;
   left: 0;
@@ -105,10 +105,10 @@ body {
 }
 
 body.main-page {
-  background-color: #141414;
+  background-color: $primaryLight;
 
   .bar-header {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(128, 128, 128, 0.85); // 1
   }
 }
 

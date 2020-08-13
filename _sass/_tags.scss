@@ -1,0 +1,196 @@
+.post-content {
+    .tags {
+        @include center(rem(800px));
+        @include mainFont(400);
+        font-size: rem(18px);
+        margin: 0 auto rem(29px);
+        margin-top: rem(30px);
+        letter-spacing: 0.025rem;
+        line-height: rem(40px);
+        padding: 0 rem(10px);
+
+        @include media(">=sm") {
+            font-size: rem(20px);
+            padding: 0;
+        }
+
+        a {
+            font-size: rem(14px);
+            //color: $primaryDark;
+            display: inline-block;
+            //border: 1px solid $primaryDark;
+            border-radius: rem(20px);
+            padding: 0 rem(10px);
+            margin-right: rem(2px);
+            margin-bottom: rem(8px);
+            text-decoration: none;
+
+            @include media(">=sm") {
+            border-width: 2px;
+            }
+
+            //&:hover {
+            //color: $accentDark;
+            //background-color: $primaryDark;
+            //}
+        }
+    }
+}
+
+.tag-title {
+    @include mainFont(300);
+    @include center(rem(800px));
+    font-size: rem(30px);
+    margin-top: rem(20px);
+    padding: 0 rem(10px);
+
+    span {
+        padding: rem(3px) rem(10px);
+        background-color: $themeColor;
+        border-radius: rem(5px);
+        color: #fff;
+    }
+
+    @include media(">=sm") {
+        font-size: rem(22px);
+        margin-top: rem(80px);
+        padding: 0;
+    }
+}
+.tags,
+.tag-title {
+    a {
+        @include mainFont(400);
+        height: rem(30px);
+        line-height: rem(26px);
+        color: $accentDark;
+        background-color: #ddd;
+        padding: 0 rem(10px);
+        border: 1px solid $accentDark;
+        border-radius: 15px;
+        display: inline-block;
+        margin: 0 rem(10px) rem(10px) 0;
+        z-index: 50;
+  
+        //&:hover {
+        //  color: $primaryDark;
+        //}
+    }
+}
+
+.tags,
+.tag-title,
+.search-form .search-list {
+    .music {
+        background-color: #16a085;
+        border-color: darken(#16a085, 5%);
+          &:hover {
+              background-color: darken(#16a085, 5%);
+          }
+      }
+
+    .band {
+        background-color: #27ae60;
+        border-color: darken(#27ae60, 5%);
+          &:hover {
+              background-color: darken(#27ae60, 5%);
+          }
+      }
+
+      .passion {
+        background-color: #d35400;
+        border-color: darken(#d35400, 5%);
+          &:hover {
+              background-color: darken(#d35400, 5%);
+          }
+      }
+
+    .cook {
+        background-color: #2980b9;
+        border-color: darken(#2980b9, 5%);
+          &:hover {
+              background-color: darken(#2980b9, 5%);
+          }
+      }
+
+    .cucine {
+        background-color: #8e44ad;
+        border-color: darken(#8e44ad, 5%);
+          &:hover {
+              background-color: darken(#8e44ad, 5%);
+          }
+      }
+
+    .story {
+        background-color: #f1c40f;
+        border-color: darken(#f1c40f, 5%);
+          &:hover {
+              background-color: darken(#f1c40f, 5%);
+          }
+      }
+
+    .fate {
+        background-color: #e74c3c;
+        border-color: darken(#e74c3c, 5%);
+          &:hover {
+              background-color: darken(#e74c3c, 5%);
+          }
+      }
+
+    .books {
+      background-color: #1abc9c;
+      border-color: darken(#1abc9c, 5%);
+        &:hover {
+            background-color: darken(#1abc9c, 5%);
+        }
+    }
+
+    .read {
+      background-color: #2ecc71;
+      border-color: darken(#2ecc71, 5%);
+        &:hover {
+            background-color: darken(#2ecc71, 5%);
+        }
+    }
+
+    .life {
+      background-color: #e67e22;
+      border-color:darken(#e67e22, 5%);
+        &:hover {
+            background-color: darken(#e67e22, 5%);
+        }
+    }
+
+    .tips {
+      background-color: #3498db;
+      border-color: darken(#3498db, 5%);
+        &:hover {
+            background-color: darken(#3498db, 5%);
+        }
+    }
+
+    .work {
+      background-color: #9b59b6;
+      border-color: darken(#9b59b6, 5%);
+        &:hover {
+            background-color: darken(#9b59b6, 5%);
+        }
+    }
+
+    .career {
+      background-color: #f1c40f;
+      border-color: darken(#f1c40f, 5%);
+        &:hover {
+            background-color: darken(#f1c40f, 5%);
+        }
+    }
+
+    .css {
+      background-color: #e74c3c;
+      border-color: darken(#e74c3c, 5%);
+        &:hover {
+            background-color: darken(#e74c3c, 5%);
+        }
+    }
+
+}

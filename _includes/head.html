@@ -49,12 +49,14 @@
     {% endif %}
 
     <!-- Social: Facebook / Open Graph -->
+    <!--
     <meta property="og:url" content="{{ url }}">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:image" content="{{ image }}">
     <meta property="og:description" content="{{ description }}">
     <meta property="og:site_name" content="{{ site.title }}">
-
+    -->
+    
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon" />
     
@@ -80,10 +82,10 @@
     <!-- Android Lolipop Theme Color -->
     <meta name="theme-color" content="#141414">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/assets/css/inter.css' | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
