@@ -9,7 +9,6 @@ position: Bioinformtics Technologist
 bio: Just a developer.
 current: true
 github_username: michael-wilson
-facebook_username: 
 twitter_username: michaelwilson_
 instagram_username: 
 linkedin_username: shrugsshoulders
