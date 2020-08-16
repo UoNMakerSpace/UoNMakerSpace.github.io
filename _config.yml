@@ -1,8 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: UoNMakerSpace
+title: UoNMakerSpace | The website for the MakerSpace
+description: The MakerSpace is definitely a thing
 tags:
   - blog
   - template
@@ -26,7 +25,6 @@ disqus_username: disqus_username
 # Social Media Settings
 # Remove the item if you don't need it
 github_username: github_username
-facebook_username: facebook_username
 twitter_username: twitter_username
 instagram_username: instagram_username
 linkedin_username: linkedin_username
@@ -57,7 +55,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator

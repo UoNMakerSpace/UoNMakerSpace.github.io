@@ -1,3 +1,6 @@
+.parp {
+    display: none;
+}
 .post-content {
     .tags {
         @include center(rem(800px));
