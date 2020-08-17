@@ -19,7 +19,7 @@ menu:
   - title: Feed
     url: /feed.xml
 email: youremail@test.com
-disqus_username: disqus_username
+disqus_username: uonmakerspace
 
 
 # Social Media Settings
@@ -60,7 +60,7 @@ use_logo: false
 
 # Content paginator
 paginate_content:
-  enabled: true
+  enabled: false
   debug: false
   collections:
     - posts
