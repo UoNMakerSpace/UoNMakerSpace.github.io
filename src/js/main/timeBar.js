@@ -3,7 +3,9 @@
 
     var post = document.querySelector('.post-content');
     var timeBar = document.querySelector('.time-bar');
+    var timeBarHeader = document.querySelector('.time-bar-header');
     var shouldShow = true;
+    var shouldShowHeader = true;
 
     if (post && timeBar) {
         var lastScrollTop = 0;
@@ -68,6 +70,40 @@
             }
 
             lastScrollTop = scrollTop;
+        });
+    }
+
+    if (post && timeBarHeader) {
+        var lastScrollTopHeader = 0;
+        var maxScrollTopHeader = post.scrollHeight;
+
+        var completedHeader = timeBarHeader.querySelector('.completed');
+        var remainingHeader = timeBarHeader.querySelector('.remaining');
+
+        document.addEventListener('scroll', function () {
+            var scrollTopHeader = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTopHeader <= maxScrollTopHeader) {
+                var percentageHeader = scrollTopHeader / maxScrollTopHeader;
+
+                var completedValHeader = (percentageHeader * 100).toFixed(2);
+                var remainingValHeader = 100 - parseFloat(completedValHeader);
+                completedHeader.style.width = completedValHeader.toString() + '%';
+                remainingHeader.style.width = remainingValHeader.toString() + '%';
+
+                shouldShowHeader = true;
+
+                //triggerStillReading();
+            } else {
+                completedHeader.style.width = '100%';
+                remainingHeader.style.width = '0%';
+
+                shouldShowHeader = true;
+
+                //triggerFinishedReading();
+            }
+
+            lastScrollTopHeader = scrollTopHeader;
         });
     }
 

@@ -430,6 +430,37 @@
 
 /* Time bar */
 
+.time-bar-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 62px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  //transition: bottom 0.5s;
+  background-color: rgba(0, 0, 0, 0.85);
+
+  @include media(">=sm") {
+    padding: 0;
+  }
+
+  .completed {
+    float: left;
+    display: block;
+    height: rem(5px);
+    background-color: $themeColor;
+  }
+
+  .remaining {
+    float: left;
+    display: block;
+    height: rem(5px);
+    background-color: #ccc;
+  }
+
+}
+
 .time-bar {
   position: fixed;
   left: 0;
@@ -485,6 +516,7 @@
     float: right;
   }
 }
+
 
 /* Recommendation */
 
@@ -618,6 +650,9 @@
 /* Tags */
 
 .post-content {
+  p b,strong {
+    font-weight:600;
+  }
 
   a.post-anchor {
     display: block;

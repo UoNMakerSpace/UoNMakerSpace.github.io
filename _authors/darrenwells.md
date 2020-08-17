@@ -3,13 +3,13 @@ layout: author
 photo: /assets/img/uploads/profile.png
 photo_hidpi: /assets/img/uploads/profile_2x.png
 photo_optimized: /assets/img/uploads/profile_small.png
-name: michaelwilson
-display_name: Michael Wilson
-position: Bioinformtics Technologist
-bio: Just a developer.
+name: darrenwells
+display_name: Darren Wells
+position: Principal Research Fellow
+bio: Spanner monkey
 current: true
-github_username: michael-wilson
-twitter_username: michaelwilson_
+github_username: 
+twitter_username: 
 instagram_username: 
 linkedin_username: 
 medium_username: 

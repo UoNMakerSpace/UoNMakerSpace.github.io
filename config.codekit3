@@ -257,6 +257,44 @@
 		"oAP": "/404.html",
 		"oF": 0
 		},
+	"/_authors/darrenwells.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_authors/darrenwells.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/_authors/jonatkinson.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_authors/jonatkinson.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/_authors/michaelwilson.md": {
 		"cB": 0,
 		"cS": 0,
@@ -269,6 +307,25 @@
 		"oA": 1,
 		"oAP": "/_authors/michaelwilson.html",
 		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/_authors/stuartbagley.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_authors/stuartbagley.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -348,6 +405,14 @@
 		"oAP": "/_includes/header.html",
 		"oF": 1
 		},
+	"/_includes/home-header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_includes/home-header.html",
+		"oF": 1
+		},
 	"/_includes/links.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -420,6 +485,14 @@
 		"oAP": "/_includes/pagination-post.html",
 		"oF": 1
 		},
+	"/_includes/post-header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_includes/post-header.html",
+		"oF": 1
+		},
 	"/_includes/progress-bar.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -482,6 +555,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_includes/svg-icons.html",
+		"oF": 1
+		},
+	"/_includes/time-bar-header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_includes/time-bar-header.html",
 		"oF": 1
 		},
 	"/_includes/time-bar.html": {
@@ -1361,26 +1442,26 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/admin/config.yml",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/admin/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/admin/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/css/inter.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/css/inter-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 3
 		},
 	"/_site/assets/css/preview.css": {
@@ -1405,18 +1486,18 @@
 		},
 	"/_site/assets/img/404.gif": {
 		"ft": 4194304,
-		"iS": 225153,
-		"oA": 1,
+		"iS": 229891,
+		"oA": 0,
 		"oAP": "/_site/assets/img/404.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/_site/assets/img/blog-image.png": {
 		"ft": 32768,
-		"iS": 2957,
-		"oA": 1,
+		"iS": 4026,
+		"oA": 0,
 		"oAP": "/_site/assets/img/blog-image.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1426,9 +1507,9 @@
 		"ft": 16384,
 		"iS": 526721,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/hero/head.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1437,9 +1518,9 @@
 		"ft": 16384,
 		"iS": 1983688,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/hero/head_x2.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1447,9 +1528,9 @@
 	"/_site/assets/img/icons/apple-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 369,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-icon-72x72.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1458,9 +1539,9 @@
 	"/_site/assets/img/icons/apple-touch-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 473,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-touch-icon-114x114.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1469,9 +1550,9 @@
 	"/_site/assets/img/icons/apple-touch-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 491,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-touch-icon-120x120.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1480,9 +1561,9 @@
 	"/_site/assets/img/icons/apple-touch-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 605,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-touch-icon-144x144.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1491,9 +1572,9 @@
 	"/_site/assets/img/icons/apple-touch-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 613,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-touch-icon-152x152.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1502,9 +1583,9 @@
 	"/_site/assets/img/icons/apple-touch-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 303,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-touch-icon-57x57.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1513,9 +1594,9 @@
 	"/_site/assets/img/icons/apple-touch-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 313,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-touch-icon-60x60.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1524,9 +1605,9 @@
 	"/_site/assets/img/icons/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 303,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/apple-touch-icon.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1535,9 +1616,9 @@
 	"/_site/assets/img/icons/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 164,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/favicon-16x16.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1546,9 +1627,9 @@
 	"/_site/assets/img/icons/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 237,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/favicon-32x32.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1557,9 +1638,9 @@
 	"/_site/assets/img/icons/favicon-64x64.png": {
 		"ft": 32768,
 		"iS": 321,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/favicon-64x64.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1568,9 +1649,9 @@
 	"/_site/assets/img/icons/largetile.png": {
 		"ft": 32768,
 		"iS": 1152,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/largetile.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1579,9 +1660,9 @@
 	"/_site/assets/img/icons/mediumtile.png": {
 		"ft": 32768,
 		"iS": 608,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/mediumtile.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1590,9 +1671,9 @@
 	"/_site/assets/img/icons/smalltile.png": {
 		"ft": 32768,
 		"iS": 370,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/smalltile.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1601,9 +1682,9 @@
 	"/_site/assets/img/icons/widetile.png": {
 		"ft": 32768,
 		"iS": 727,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/icons/widetile.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1612,28 +1693,28 @@
 	"/_site/assets/img/link-symbol.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/img/link-symbol.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
 	"/_site/assets/img/message.gif": {
 		"ft": 4194304,
-		"iS": 42627,
-		"oA": 1,
+		"iS": 44874,
+		"oA": 0,
 		"oAP": "/_site/assets/img/message.gif",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"/_site/assets/img/off.jpg": {
 		"ft": 16384,
 		"iS": 36208,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/off.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1641,9 +1722,9 @@
 	"/_site/assets/img/pixels.png": {
 		"ft": 32768,
 		"iS": 94,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/pixels.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1652,9 +1733,9 @@
 	"/_site/assets/img/placeholder.png": {
 		"ft": 32768,
 		"iS": 96,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/placeholder.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1663,9 +1744,9 @@
 	"/_site/assets/img/preview-sprite.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/img/preview-sprite.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -1673,9 +1754,9 @@
 	"/_site/assets/img/star.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/_site/assets/img/star.svg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
@@ -1683,9 +1764,9 @@
 	"/_site/assets/img/uploads/profile.png": {
 		"ft": 32768,
 		"iS": 1027,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/uploads/profile.png",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -1695,9 +1776,9 @@
 		"ft": 16384,
 		"iS": 5254,
 		"jF": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/img/user.jpg",
-		"oF": 1,
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
@@ -1718,9 +1799,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/js/react.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1740,9 +1821,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/js/scripts.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1750,9 +1831,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/js/scripts.min.js.map",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/assets/js/widgets/color/color.min-min.js": {
 		"bF": 0,
@@ -1770,9 +1851,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/js/widgets/color/color.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1792,9 +1873,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/assets/js/widgets/color/react-color.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1906,9 +1987,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/CNAME",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/contact/index.html": {
 		"cB": 0,
@@ -1938,9 +2019,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/favicon.ico",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/feed.xml": {
 		"cB": 0,
@@ -1978,9 +2059,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/jekflix.gemspec",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/let-flexbox-work-for-you-or-perish/index.html": {
 		"cB": 0,
@@ -1994,9 +2075,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/LICENSE",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/makerspace/index.html": {
 		"cB": 0,
@@ -2018,9 +2099,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_site/robots.txt",
-		"oF": 1
+		"oF": 0
 		},
 	"/_site/search.json": {
 		"ft": 524288,
