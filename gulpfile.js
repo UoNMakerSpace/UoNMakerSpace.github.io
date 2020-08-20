@@ -63,7 +63,8 @@ function server(done) {
   browserSync({
     server: {
       baseDir: '_site'
-    }
+    },
+    open: false
   });
   done();
 }

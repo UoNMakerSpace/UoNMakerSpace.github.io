@@ -1,3 +1,6 @@
+.parp {
+  display: block;
+}
 .post {
   position: relative;
   top: rem(30px);
@@ -81,6 +84,22 @@
     }
   }
 
+  p {
+    letter-spacing: -0.025rem;
+  }
+
+  p b,strong {
+    font-weight:600;
+  }
+  
+  a.post-anchor {
+    display: block;
+    height: rem(40px);
+
+    @include media(">=sm") {
+      height: rem(10px);
+    }
+  }
   h1.post-title {
     line-height: 1.2;
     margin: rem(5px) auto rem(10px);
@@ -650,9 +669,6 @@
 /* Tags */
 
 .post-content {
-  p b,strong {
-    font-weight:600;
-  }
 
   a.post-anchor {
     display: block;
